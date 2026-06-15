@@ -1,0 +1,33 @@
+{
+  "features": [
+    "recency",
+    "frequency",
+    "monetary",
+    "avg_order_value",
+    "R_score",
+    "F_score",
+    "M_score",
+    "RFM_total",
+    "pred_purchases_4w",
+    "pred_purchases_12w",
+    "pred_purchases_26w",
+    "pred_purchases_52w",
+    "n_items",
+    "log_recency",
+    "log_frequency",
+    "log_monetary",
+    "log_aov",
+    "revenue_per_day",
+    "freq_per_day"
+  ],
+  "churn_definition": "BG/NBD: P_alive < 0.5",
+  "optimal_threshold": 0.36565518379211426,
+  "test_roc_auc": 0.9909624806012842,
+  "test_pr_auc": 0.826601176963621,
+  "test_f1": 0.8396946559934735,
+  "cv_roc_auc_mean": 0.992425484357212,
+  "cv_roc_auc_std": 0.0038733268297955455,
+  "n_train": 4689,
+  "n_test": 1173,
+  "churn_rate": 5.049471170249062
+}
