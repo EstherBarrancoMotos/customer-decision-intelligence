@@ -1,6 +1,8 @@
 venv/
 data/raw/
-data/processed/
+data/processed/*
+!data/processed/customer_360.parquet
+!data/processed/transactions_clean.parquet
 __pycache__/
 .ipynb_checkpoints/
 *.pyc
