@@ -1,0 +1,10 @@
+streamlit
+pandas
+numpy
+plotly
+pyarrow
+scikit-learn
+lifetimes
+xgboost
+shap
+joblib
